@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./styles/styles.css" />
+
+    <title>Gabriel Willian de Paula - Página Pessoal</title>
+  </head>
+  <body>
+    <nav class="side-nav">
+      <div id="menu-icon" class="nav-icon">
+        <em class="fas fa-bars"></em>
+      </div>
+
+      <ul class="desktop nav" id="menu">
+        <li class="nav-item">
+          <a class="nav-link" href="#sobreMim" onclick="navClick(event, 'sobreMim')">Sobre Mim</a>
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            href="#experienciaProfissional"
+            onclick="navClick(event, 'experienciaProfissional')"
+            >Experiência Profssional</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#educacao" onclick="navClick(event, 'educacao')">Educação</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#disciplinas" onclick="navClick(event, 'disciplinas')"
+            >Disciplinas</a
+          >
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#contato" onclick="navClick(event, 'contato')">Contato</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="content">
+      <section id="sobreMim" class="card">
+        <div class="about-me">
+          <div class="about-me-image">
+            <img src="./assets/me.png" class="profile-picture" alt="Gabriel Willian de Paula" />
+          </div>
+          <div class="about-me-content">
+            <h3>Sobre Mim</h3>
+            <p>
+              Caiçara e atualmente morando em Ubatuba durante esse período "pandêmico", tenho 21
+              anos e venho destrinchando esse mundo magnífico da programação desde 2019. Como amante
+              de jogos, sempre fui fascinado por design em geral, desde a concepção de personagens
+              até a estilização da interface, menus e etc. Sou apaixonado pela trilha de front end e
+              amo passar horas e horas desenvolvendo e estilizando interfaces.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="experienciaProfissional" class="card">
+        <h3>Experiência Profissional</h3>
+        <ul>
+          <li class="list-item">
+            <div class="list-item-logo"><img src="./assets/cit-logo.png" alt="CIT logo" /></div>
+            <div class="list-item-content">
+              <p><strong>CI&T</strong> | fevereiro 2020 - presente</p>
+              <p><em>Front End Developer</em></p>
+              <p>
+                Trabalhando como desenvolvedor front end em um Design System utilizando o framework
+                Angular para criação de componentes.
+              </p>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <section id="educacao" class="card">
+        <h3>Educação</h3>
+        <ul>
+          <li class="list-item">
+            <div class="list-item-logo"><img src="./assets/cps-logo.jpg" alt="ETEC logo" /></div>
+            <div class="list-item-content">
+              <p>
+                <strong>Escola Técnica Estadual (ETEC Caraguatatuba)</strong> <br />
+                2014 à 2016
+              </p>
+              <p>Técnico em Administração Integrado ao Ensino Médio</p>
+            </div>
+          </li>
+          <li class="list-item">
+            <div class="list-item-logo"><img src="./assets/ifsp-logo.jpg" alt="CIT logo" /></div>
+            <div class="list-item-content">
+              <p>
+                <strong
+                  >Instituto Federal de Educação, Ciência e Tecnologia de São Paulo
+                  (Caraguatatuba)</strong
+                >
+                <br />
+                2015 à 2016
+              </p>
+              <p>Técnico em Edificações</p>
+            </div>
+          </li>
+          <li class="list-item">
+            <div class="list-item-logo"><img src="./assets/ifsp-logo.jpg" alt="CIT logo" /></div>
+            <div class="list-item-content">
+              <p>
+                <strong
+                  >Instituto Federal de Educação, Ciência e Tecnologia de São Paulo
+                  (Campinas)</strong
+                >
+                <br />
+                2019 à 2021
+              </p>
+              <p>Tecnólogo em Análise e Desenvolvimento de Sistemas</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <section id="disciplinas" class="card">
+        <h3>Disciplinas</h3>
+        <ul>
+          <li class="list-item">
+            <div class="list-item-content">
+              <p><strong>Algoritmos e Programação</strong></p>
+              <p>
+                Permite o desenvolvimento do raciocínio lógico por meio do formalismo de linguagem
+                de programação e abordando os princípios da representação e manipulação da
+                informação.
+              </p>
+            </div>
+          </li>
+          <li class="list-item">
+            <div class="list-item-content">
+              <p><strong>Linguagem de Programação</strong></p>
+              <p>
+                Disciplina que envolve os conceitos de algoritmos da programação procedural e
+                orientada à objetos, em linguagens de console ou visuais.
+              </p>
+            </div>
+          </li>
+          <li class="list-item">
+            <div class="list-item-content">
+              <p><strong>Banco de Dados</strong></p>
+              <p>
+                Introduz conceitos básicos da teoria de banco de dados, envolvendo aspectos da
+                arquitetura, modelagem conceitual. Envolve a realização do projeto e implementação
+                de um banco de dados
+              </p>
+            </div>
+          </li>
+          <li class="list-item">
+            <div class="list-item-content">
+              <p><strong>Desenvolvimento Web</strong></p>
+              <p>
+                Apresenta os fundamentos para a compreensão dos princípios relacionados com a
+                elaboração, formatação e inclusão de funcionalidades em páginas web.
+              </p>
+            </div>
+          </li>
+          <li class="list-item">
+            <div class="list-item-content">
+              <p><strong>Estrutura de Dados</strong></p>
+              <p>
+                discute as principais formas, técnicas e estruturas para organizar, classificar e
+                recuperar as informações na memória de sistemas computacionais. Também possibilita a
+                avaliação da complexidade das soluções adotadas para o armazenamento da informação
+                nos sistemas computacionais.
+              </p>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <section id="contato" class="card">
+        <h3>Contato</h3>
+        <p>Bora trocar uma ideia?</p>
+        <div class="social-media">
+          <em
+            id="linkedin"
+            class="fab fa-linkedin"
+            onClick="window.open('https://www.linkedin.com/in/gabrielwp/')"
+          ></em>
+          <a href="https://www.linkedin.com/in/gabrielwp/">/in/gabrielwp</a>
+        </div>
+
+        <form action="#" method="POST">
+          <div class="form-group mb-4 mt-4">
+            <label for="name">Nome:</label>
+            <input type="text" name="name" id="name" class="form-control dark" required />
+          </div>
+          <div class="form-group mb-4">
+            <label for="phone">Telefone:</label>
+            <input type="number" name="phone" id="phone" class="form-control dark" required />
+          </div>
+          <div class="form-group mb-4">
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email" class="form-control dark" required />
+          </div>
+
+          <div class="form-group mb-4">
+            <label for="reason">Motivo do contato:</label>
+            <select id="reason" class="form-control">
+              <option value="duvidas">Dúvidas</option>
+              <option value="propostas">Propostas</option>
+              <option value="outros">Outros</option>
+            </select>
+          </div>
+
+          <div class="form-group mb-4">
+            <label for="description">Descrição:</label>
+            <textarea
+              name="description"
+              id="description"
+              class="form-control dark"
+              rows="5"
+              required
+            ></textarea>
+          </div>
+
+          <input type="submit" value="Enviar" class="btn btn-primary btn-lg btn-block" />
+        </form>
+      </section>
+    </div>
+
+    <div class="background"></div>
+
+    <script src="./scripts/scripts.js"></script>
+    <script src="https://kit.fontawesome.com/0948b07d44.js" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
